@@ -6,7 +6,7 @@ FLAG_FILE = ".reset_flag"
 WIFI_FILE = "wifi.dat"
 OTA_FLAG = ".ota_running"
 
-led = machine.Pin(33, machine.Pin.OUT)
+led = machine.Pin(17, machine.Pin.OUT)
 
 # --- OTA BOOT ---
 if OTA_FLAG in os.listdir():
